@@ -28,6 +28,7 @@ services:
       - postgres
     networks:
       - diary-network
+    restart: always
       
 volumes:
   postgres-db:
