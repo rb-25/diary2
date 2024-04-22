@@ -4,3 +4,4 @@ __pycache__/
 .env
 .github
 .hooks
+firebase-key.json

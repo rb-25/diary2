@@ -1,6 +1,13 @@
 from django.db import models
 
 class Entry(models.Model):
+    
+    """ Model for diary entry """
+    
+    class meta:
+        verbose_name = "Diary Entry"
+        verbose_name_plural = "Diary Entries"
+    
     title = models.CharField(max_length=100)
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)

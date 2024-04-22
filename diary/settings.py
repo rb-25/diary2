@@ -1,5 +1,6 @@
 from decouple import config
 from datetime import timedelta
+
 """
 Django settings for diary project.
 
